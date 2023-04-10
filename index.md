@@ -14,13 +14,13 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 Summary of the project
 
-## Header 2
+## Interesting question
 
 > This is a blockquote following a header.
 >
 > When something is important enough, you do it even if the odds are not in your favor.
 
-### Header 3
+## data description
 
 ```js
 // Javascript code with syntax highlighting.
