@@ -11,18 +11,21 @@ Summary of the project
 
 ## Interesting question
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+
+> What is the effect of the two treatments (new coated sweep and worn sweep)on the soil profile (making seedbed), as measured by the lidar sensor? 
+> A simple observation if the plant heights are different from two tillage treatments
+
 
 ## data description
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
+```python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+df = pd.read_csv('/Users/jongnoh/Desktop/2022_2021_LidarData/LiDar_Seedbed_2022.csv', sep = ',') #you can change this directory for your preference
+df.tail 
+
 ```
 
 ```python
