@@ -18,6 +18,9 @@ Summary of the project
 
 ## data description
 
+Lidar data excel file, First of all, was derived from the LiDAR software and then useful data was selected and calculated mean, min, max and roughness value from each observations by matlab.
+
+
 ```python
 import pandas as pd
 import numpy as np
