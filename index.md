@@ -15,14 +15,14 @@ Newer tillage technology and embedded softwarehave been developed to monitor and
 
 ## Interesting question
 
-> 1. What is the effect of the two treatments (new coated sweep and worn sweep) on the soil profile (making seedbed), as measured by the lidar sensor? 
-> 2. A simple observation if the plant heights are different from two tillage treatments.
+*  1. What is the effect of the two treatments (new coated sweep and worn sweep) on the soil profile (making seedbed), as measured by the lidar sensor? 
+*  2. A simple observation if the plant heights are different from two tillage treatments.
 
 
-## data description
+## Data description
 Lidar data excel file, First of all, was derived from the LiDAR software and then useful data was selected and calculated mean, min, max and roughness value from each observations by matlab. After that, plant heights and vegetative stage was added for the project.
 
-## methods
+## Methods
 
 
 #### Results and discussion
