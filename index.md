@@ -5,40 +5,27 @@ layout: default
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 
-# Project Summary 1
+## Research Backround
 
-Summary of the project
+Tillage operation play a crucial role in **seedbed** preaparation and crop yield. It affects the many aspects in initial condition for crop growth such as enhancing soil aeration and allowing good seed-to-soil contact which facilitater tbe seed germination and emergence. This research is focused on the objective of measuring the seedbed profile with the Lidar sensor to validate it's performance on evaluating seedbed quality. 
+
+## Problem
+
+Newer tillage technology and embedded softwarehave been developed to monitor and adjust a fieldcultivator sweep's vertical position in real-time, allowing farmers to optimize the agronomic seed-bed environment. The current tool position and control feedback architect lack sensing of the soil-tilth quality for creating an optimal seed-bedenvironment. Methods are needed to determine soil tilth quality in field conditions and the tool's existing lifecycle, which could then be integrated into the tool's control feedback(software).
 
 ## Interesting question
 
-
-> What is the effect of the two treatments (new coated sweep and worn sweep)on the soil profile (making seedbed), as measured by the lidar sensor? 
-> A simple observation if the plant heights are different from two tillage treatments
+> 1. What is the effect of the two treatments (new coated sweep and worn sweep) on the soil profile (making seedbed), as measured by the lidar sensor? 
+> 2. A simple observation if the plant heights are different from two tillage treatments.
 
 
 ## data description
+Lidar data excel file, First of all, was derived from the LiDAR software and then useful data was selected and calculated mean, min, max and roughness value from each observations by matlab. After that, plant heights and vegetative stage was added for the project.
 
-Lidar data excel file, First of all, was derived from the LiDAR software and then useful data was selected and calculated mean, min, max and roughness value from each observations by matlab.
+## methods
 
 
-```python
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-
-df = pd.read_csv('/Users/jongnoh/Desktop/2022_2021_LidarData/LiDar_Seedbed_2022.csv', sep = ',') #you can change this directory for your preference
-df.tail 
-
-```
-
-```python
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
+#### Results and discussion
 
 *   This is an unordered list following a header.
 *   This is an unordered list following a header.
