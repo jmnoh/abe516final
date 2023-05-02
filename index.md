@@ -1,6 +1,6 @@
 
 
-ABE516 Final Project
+### ABE516 Final Project
 
 
 ## Research Backround
@@ -9,7 +9,7 @@ Tillage operation play a crucial role in **seedbed** preaparation and crop yield
 
 ## Problem
 
-Newer tillage technology and embedded softwarehave been developed to monitor and adjust a fieldcultivator sweep's vertical position in real-time, allowing farmers to optimize the agronomic seed-bed environment. The current tool position and control feedback architect lack sensing of the soil-tilth quality for creating an optimal seed-bedenvironment. Methods are needed to determine soil tilth quality in field conditions and the tool's existing lifecycle, which could then be integrated into the tool's control feedback(software).
+Newer tillage technology and embedded software have been developed to monitor and adjust a field cultivator sweep's vertical position in real-time, allowing farmers to optimize the agronomic seed-bed environment. The current tool position and control feedback architect lack sensing of the soil-tilth quality for creating an optimal seed-bed environment. Methods are needed to determine soil tilth-quality in field conditions and the tool's existing lifecycle, which could then be integrated into the tool's control feedback(software).
 
 ## Interesting question
 
@@ -18,7 +18,7 @@ Newer tillage technology and embedded softwarehave been developed to monitor and
 
 
 ## Data description
-Lidar data excel file, First of all, was derived from the LiDAR software and then useful data was selected and calculated mean, min, max and roughness value from each observations by matlab. After that, plant heights and vegetative stage was added for the project.
+Lidar data excel file, First of all, was derived from the LiDAR software and then useful data was selected and calculated mean, min, max and roughness value from each observations by matlab. After that, plant heights and vegetative stage was added for the project. Data structure : 108 rows and 12 columns.
 
 ## Methods
 In this project, it is more focused on the LIDAR data not on the plant height or vegetative stage.
