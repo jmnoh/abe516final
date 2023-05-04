@@ -22,7 +22,10 @@ Lidar data excel file, First of all, was derived from the LiDAR software and the
 
 ## Methods
 In this project, it is more focused on the LIDAR data not on the plant height or vegetative stage.
-* 1. Load the data, checking Missing values, correlation, and mean differences for each treatment
+* Simple analysis : Load the data, checking Missing values, correlation, and mean differences for each treatment
+* Principal component analysis
+* Linear regression
+  * mean soil depth vs plant height(measured after planting)
 * Using Bootstrap and permutation
   * Check distribution type
   * Bootstrap and permutation
@@ -33,10 +36,13 @@ In this project, it is more focused on the LIDAR data not on the plant height or
     * Average soil depth in adjacent rows at the same subplot, comparing Two treatments (just a one experimental trial)
 
 ## Results and future work
+* There were no missing values in the data and location information columns(trt-treatment, trtwrun-treatment with run and subplot) wer added for the analysis.
+* Principal component analysis was not effective to identify cluster of two treatments by mean soil depth.
+* Linear regression between mean soil depth and plant height deosn't show the linear relationship with the R-square value: 0.022 and p-value: 0.12.
 * Bootstrap and permutation method didn’t work on the combined mean differences in treatments (accepting the null hypothesis), but it was more effective when the data was separated into the precise region (adjacent rows) of the field.
 * It also allows me to see the confidence intervals easily which helps to understand the lidar data.
 * 2 out of 3 pairs of **adjacent rows** testing showed significant differences( p-value < 0.05) between treatments.
 * Applying the same method by separating them with **adjacent rows and subplots** can be done in further process in the future.
-* Through this project, I learned a lot in coding and found out the coding methods and visuals help me a lot to understand the data and propose another idea how to analyze data. For the question that I had before the project was answered since it showed some result that It can differentiate the two treatments in p-value. However, this research is still in progress so further studies should be needed to develop the method how to analyze the lidar data and the crop plant data such as plant height, spacing, vegetative stage and yield.
+* Through this project, I learned a lot in coding and found out the coding methods and visuals help me a lot to understand the data and propose another idea how to analyze data. For the question that I had before the project was answered since it showed some result that It can differentiate the two treatments in p-value. However, this research is still in progress so further studies should be needed to develop the method how to analyze the lidar data and the crop plant data such as plant height, spacing, vegetative stage and yield .
  
 Thank you.
