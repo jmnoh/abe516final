@@ -36,7 +36,7 @@ In this project, it is more focused on the LIDAR data not on the plant height or
     * Average soil depth in adjacent rows at the same subplot, comparing Two treatments (just a one experimental trial)
 
 ## Results & Discussion and future work
-* For this Project, Data wrangling, PCA, Linear regression, bootsstrap and permutation method was used for the analaysis.
+* For this Project, Data wrangling, PCA, Linear regression, bootstrap and permutation method was used for the analaysis.
 * There were no missing values in the data and location information columns(trt-treatment, trtwrun-treatment with run and subplot) wer added for the analysis.
 * Principal component analysis was not effective to identify cluster of two treatments by mean soil depth.
 * Linear regression between mean soil depth and plant height deosn't show the linear relationship with the R-square value: 0.022 and p-value: 0.12.
